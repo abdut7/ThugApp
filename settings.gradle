@@ -1,0 +1,2 @@
+rootProject.name='ThugWtsApp'
+include ':app'
