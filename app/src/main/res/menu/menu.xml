@@ -5,6 +5,7 @@
         android:id="@+id/search"
         android:title="search"
         android:icon="@android:drawable/ic_menu_search"
+        android:iconTint="#000"
         app:showAsAction="ifRoom|collapseActionView"
         app:actionViewClass="android.widget.SearchView"
         />
@@ -12,6 +13,7 @@
     <item android:id="@+id/share"
         android:icon="@android:drawable/ic_menu_share"
         android:title="share"
+        android:iconTint="#000"
         app:showAsAction="ifRoom"
         />
 

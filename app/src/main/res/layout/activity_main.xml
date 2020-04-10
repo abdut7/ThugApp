@@ -11,12 +11,15 @@
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:id="@+id/appbar"
+        android:background="@android:color/transparent"
         android:layout_height="wrap_content"
-        android:background="#B16BBD"
+
         android:theme="?attr/actionBarTheme">
         <androidx.appcompat.widget.Toolbar
             android:layout_width="match_parent"
             android:id="@+id/toolbar"
+            android:elevation="4dp"
+            android:background="@drawable/cust_appbar_background"
             app:title="@string/app_name"
             android:layout_height="?attr/actionBarSize"/>
 
