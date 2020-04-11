@@ -39,12 +39,9 @@ class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implements Fi
     public void onBindViewHolder(@NonNull MyAdapter.ViewHolder holder, int position) {
 
 
-            holder.imageView1.setImageResource(userArrayList.get(position).getImage());
-            holder.textView1.setText(userArrayList.get(position).getName());
+            holder.imageView.setImageResource(userArrayList.get(position).getImage());
+            holder.textView.setText(userArrayList.get(position).getName());
 
-
-            holder.imageView2.setImageResource(userArrayList.get(position).getImage());
-            holder.textView2.setText(userArrayList.get(position).getName());
 
     }
 
@@ -94,15 +91,13 @@ class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> implements Fi
 
     public class ViewHolder extends RecyclerView.ViewHolder {
 
-        ImageView imageView1,imageView2;
-        TextView textView1,textView2;
+        ImageView imageView;
+        TextView textView;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            imageView1=itemView.findViewById(R.id.image1);
-            imageView2=itemView.findViewById(R.id.image2);
-            textView1=itemView.findViewById(R.id.content1);
-            textView2=itemView.findViewById(R.id.content2);
+            imageView=itemView.findViewById(R.id.image);
+            textView=itemView.findViewById(R.id.content);
         }
     }
 }
