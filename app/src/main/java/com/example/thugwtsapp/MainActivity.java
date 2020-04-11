@@ -40,20 +40,25 @@ public class MainActivity extends AppCompatActivity {
          recyclerView=findViewById(R.id.recyclerView);
 
 
-         arrayList.add(new User(R.drawable.polytechnic,"jagatheesh"));
+         arrayList.add(new User(R.drawable.polytechnic,"sreenivasan"));
          arrayList.add(new User(R.drawable.suraj,"suraj"));
-        arrayList.add(new User(R.drawable.polytechnic,"jagatheesh"));
+        arrayList.add(new User(R.drawable.evideyo_entho_thakararu_pole,"harisree asokan"));
+        arrayList.add(new User(R.drawable.ithoke_enthu,"salim kumar"));
+        arrayList.add(new User(R.drawable.pinne_oru_aiswary_rai,"santhosh pandit"));
+        arrayList.add(new User(R.drawable.ramanan,"harisree asokan"));
+        arrayList.add(new User(R.drawable.polytechnic,"sreenivasan"));
         arrayList.add(new User(R.drawable.suraj,"suraj"));
-        arrayList.add(new User(R.drawable.polytechnic,"jagatheesh"));
+        arrayList.add(new User(R.drawable.evideyo_entho_thakararu_pole,"harisree asokan"));
+        arrayList.add(new User(R.drawable.ithoke_enthu,"salim kumar"));
+        arrayList.add(new User(R.drawable.pinne_oru_aiswary_rai,"santhosh pandit"));
+        arrayList.add(new User(R.drawable.ramanan,"harisree asokan"));
+        arrayList.add(new User(R.drawable.polytechnic,"sreenivasan"));
         arrayList.add(new User(R.drawable.suraj,"suraj"));
-        arrayList.add(new User(R.drawable.polytechnic,"jagatheesh"));
-        arrayList.add(new User(R.drawable.suraj,"suraj"));
-        arrayList.add(new User(R.drawable.polytechnic,"jagatheesh"));
-        arrayList.add(new User(R.drawable.suraj,"suraj"));
-        arrayList.add(new User(R.drawable.polytechnic,"jagatheesh"));
-        arrayList.add(new User(R.drawable.suraj,"suraj"));
-        arrayList.add(new User(R.drawable.polytechnic,"jagatheesh"));
-        arrayList.add(new User(R.drawable.suraj,"suraj"));
+        arrayList.add(new User(R.drawable.evideyo_entho_thakararu_pole,"harisree asokan"));
+        arrayList.add(new User(R.drawable.ithoke_enthu,"salim kumar"));
+        arrayList.add(new User(R.drawable.pinne_oru_aiswary_rai,"santhosh pandit"));
+        arrayList.add(new User(R.drawable.ramanan,"harisree asokan"));
+
 
 
 
