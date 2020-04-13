@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "832481937400",
+    "firebase_url": "https://thug-4a7cc.firebaseio.com",
+    "project_id": "thug-4a7cc",
+    "storage_bucket": "thug-4a7cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:832481937400:android:5d4a4e3ec389bda68bb80d",
+        "android_client_info": {
+          "package_name": "com.example.thugwtsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "832481937400-16ed2ak0i5jh8dbhc6kim9tjc1qsuie5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKQv_cPVZdnzh2Ive9BgMeVfxlEJjZ8xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "832481937400-16ed2ak0i5jh8dbhc6kim9tjc1qsuie5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
